@@ -53,7 +53,7 @@ export const App = () => {
                   -
                 </button>
               );
-            } else if (!selectedGood) {
+            } else {
               button = (
                 <button
                   data-cy="AddButton"
@@ -64,8 +64,6 @@ export const App = () => {
                   +
                 </button>
               );
-            } else {
-              button = null;
             }
 
             return (
